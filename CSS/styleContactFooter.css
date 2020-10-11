@@ -1,0 +1,48 @@
+/* brand */
+#brand{
+    background-color:#36444c;
+    padding: 50px 0;
+    text-align: center;
+}
+#brand img{
+    height: 55px;
+    margin: 25px 0;
+}
+/* contact */
+#contact p{
+    width: 80%;
+    margin-bottom: 30px;
+}
+#contact a{
+    transition: all .2s ease-in-out;
+    margin-right: 10px;
+}
+/* contact form */
+#contact textarea{
+    height: 120px;
+    width: inherit;
+}
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+footer p,footer ul{
+    margin: 0;
+}
+footer div i {
+   color: #fc6020;
+}
+footer li{
+    display: inline-block;
+    list-style-type: none;
+}
+footer ul li a{
+    margin: 0 8px;
+}
+footer ul li a:hover{
+    transition: all .2s ease-in-out;
+   text-decoration: none;
+   color: #fc6020;
+}

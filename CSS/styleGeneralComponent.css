@@ -1,0 +1,92 @@
+*{
+    transition: all .3s ease-in-out;
+}
+*::selection{
+    background-color:#33c7c0;
+}
+.back-to-top{
+    display: inline-block;
+    color:white;
+    background-color:#fc6020;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    bottom:20px;
+    right: 20px;
+}
+
+.back-to-top:hover{
+    color:white;
+    background-color:#fd885a;
+}
+.back-to-top{
+    padding-top: 5px;
+    font-size: 25px;
+}
+/* contact form */
+.inputDesign {
+    display: inline-block;
+    border: none;
+    background-color: #F6F6F6;
+    color: #a59ea1;
+    border-radius: 5px;
+    margin: 12px auto;
+    padding: 8px 15px;
+    width: inherit;
+    resize: none;
+}
+.inputDesign:focus{
+    outline: none;
+}
+@media (min-width:767px){
+   .left{
+        width: 48%;
+        float: left;
+    }
+    .right{
+        width: 48%;
+        float: right;
+    }
+}
+/* H2 */
+h2,h5{
+    color:#36444c;
+    font-weight: bold;
+    margin: 20px 0;
+}
+/* section */
+section{
+    margin: 100px auto;
+}
+#sliderPart{
+    margin: 0 auto;
+}
+/* general button */
+.general-button{
+    display: inline-block;
+    padding: 10px 25px;
+    color:white;
+    margin-top: 12px;
+    background-color:#fc6020;
+}
+.general-button:hover{
+    text-decoration: none;
+    background-color:white;
+    color:#fc6020;
+    border: 2px solid #fc6020;
+}
+/* social media icons */
+#facebook{
+    color:#3b5ca0;}
+#linkedin{
+    color:#0077b5;
+}
+#facebook:hover{
+    color:#9daccc;
+}
+ #linkedin:hover{
+    color:#49a1cb;
+}
